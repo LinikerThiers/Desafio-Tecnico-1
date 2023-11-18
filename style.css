@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: #242424;
+    color: aliceblue;
+}
+
+#app {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+#div-input{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#numero-escolhido{
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: aliceblue;
+    color: #242424;
+    font-weight: bolder;
+}
+
+#fazer-calculo{
+    border: none;
+    padding: 10px;
+    background-color: aliceblue;
+    color: #242424;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#fazer-calculo:hover{
+    background-color: #242424;
+    border: 1px solid whitesmoke;
+    color: aliceblue;
+}
+
+#div-resultado{
+    font-size: 10px;
+}
